@@ -12,7 +12,8 @@ Step | Task | Link
 
 clone openstack:
 ```bash
-git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git
+git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
+cd /opt/openstack-ansible
 ```
 
 bootstrap all in one setup:
