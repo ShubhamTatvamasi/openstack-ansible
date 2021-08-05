@@ -1,5 +1,7 @@
 # openstack-ansible
 
+Source Code: https://github.com/openstack/openstack-ansible
+
 Step | Task | Link
 ---|---|---
 1 | Prepare the deployment host | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/deploymenthost.html
@@ -8,4 +10,3 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
-https://github.com/openstack/openstack-ansible
