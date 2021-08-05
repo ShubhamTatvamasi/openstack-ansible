@@ -31,3 +31,7 @@ openstack-ansible setup-openstack.yml
 openstack-ansible setup-everything.yml
 ```
 
+verify installation:
+```bash
+lxc-ls --fancy
+```
