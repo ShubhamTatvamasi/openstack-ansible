@@ -10,3 +10,7 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
+
+```bash
+./scripts/bootstrap-aio.sh
+```
