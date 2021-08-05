@@ -10,6 +10,11 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
+clone openstack:
+```bash
+git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git
+```
+
 bootstrap all in one setup:
 ```bash
 ./scripts/bootstrap-ansible.sh
