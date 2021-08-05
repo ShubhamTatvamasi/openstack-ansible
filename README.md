@@ -12,11 +12,17 @@ Step | Task | Link
 
 bootstrap all in one setup:
 ```bash
+./scripts/bootstrap-ansible.sh
 ./scripts/bootstrap-aio.sh
 ```
 
 Install everything, move to `/opt/openstack-ansible/playbooks` directory:
 ```bash
+openstack-ansible setup-hosts.yml
+openstack-ansible setup-infrastructure.yml
+openstack-ansible setup-openstack.yml
+
+# OR
 openstack-ansible setup-everything.yml
 ```
 
