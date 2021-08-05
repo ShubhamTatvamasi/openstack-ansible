@@ -10,7 +10,13 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
-
+bootstrap all in one setup:
 ```bash
 ./scripts/bootstrap-aio.sh
 ```
+
+Install everything, move to `/opt/openstack-ansible/playbooks` directory:
+```bash
+openstack-ansible setup-everything.yml
+```
+
