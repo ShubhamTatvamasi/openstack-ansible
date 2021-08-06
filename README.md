@@ -13,8 +13,19 @@ Step | Task | Link
 clone openstack:
 ```bash
 git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
+
+git clone -b stable/victoria https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
+
+Install packages:
+```bash
+sudo apt install -y \
+  bridge-utils debootstrap openssh-server \
+  tcpdump vlan python3 build-essential git \
+  python3-dev sudo chrony
+```
+
 
 bootstrap all in one setup:
 ```bash
