@@ -10,6 +10,10 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
+
+Ubuntu Image for Openstack \
+https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
+
 clone openstack:
 ```bash
 git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
