@@ -11,7 +11,7 @@ Step | Task | Link
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
 
-Ubuntu Image for Openstack \
+Ubuntu QCOW2 Image for Openstack \
 https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
 
 clone openstack:
