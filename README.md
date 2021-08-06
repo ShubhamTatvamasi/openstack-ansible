@@ -12,8 +12,6 @@ Step | Task | Link
 
 clone openstack:
 ```bash
-git clone -b stable/victoria https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
-
 git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
