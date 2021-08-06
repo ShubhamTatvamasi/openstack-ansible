@@ -14,6 +14,8 @@ Step | Task | Link
 Ubuntu QCOW2 Image for Openstack \
 https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
 
+Source: https://cloud-images.ubuntu.com/
+
 clone openstack:
 ```bash
 git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
