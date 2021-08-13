@@ -37,6 +37,13 @@ bootstrap all in one setup:
 ./scripts/bootstrap-aio.sh
 ```
 
+update external IP
+```bash
+vim /etc/openstack_deploy/openstack_user_config.yml
+# external_lb_vip_address: 192.168.5.13
+```
+
+
 Install everything, move to `/opt/openstack-ansible/playbooks` directory:
 ```bash
 openstack-ansible setup-hosts.yml
