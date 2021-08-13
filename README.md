@@ -25,6 +25,7 @@ cd /opt/openstack-ansible
 
 Install packages:
 ```bash
+sudo apt update
 sudo apt install -y \
   bridge-utils debootstrap openssh-server \
   tcpdump vlan python3 build-essential git \
