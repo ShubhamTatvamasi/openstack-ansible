@@ -18,6 +18,7 @@ Source: https://cloud-images.ubuntu.com/
 
 clone openstack:
 ```bash
+sudo su
 git clone -b stable/wallaby https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
