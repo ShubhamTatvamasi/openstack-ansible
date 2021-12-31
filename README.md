@@ -48,6 +48,8 @@ vim /etc/openstack_deploy/openstack_user_config.yml
 
 Install everything, move to `/opt/openstack-ansible/playbooks` directory:
 ```bash
+cd /opt/openstack-ansible/playbooks
+
 openstack-ansible setup-hosts.yml
 openstack-ansible setup-infrastructure.yml
 openstack-ansible setup-openstack.yml
