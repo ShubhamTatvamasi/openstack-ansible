@@ -32,6 +32,11 @@ sudo apt install -y \
   python3-dev sudo chrony
 ```
 
+Install kernel extra packages:
+```bash
+sudo apt install -y \
+  linux-modules-extra-$(uname -r)
+```
 
 bootstrap all in one setup:
 ```bash
