@@ -22,6 +22,7 @@ sudo su
 git clone -b stable/xena https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
+> use `master` branch for latest build.
 
 Install packages:
 ```bash
