@@ -49,6 +49,9 @@ update external IP
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
 # external_lb_vip_address: 192.168.5.13
+
+# OR verify
+cat /etc/openstack_deploy/openstack_user_config.yml | grep external_lb_vip_address
 ```
 
 
