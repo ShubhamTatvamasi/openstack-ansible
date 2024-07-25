@@ -82,3 +82,11 @@ Login to horizon container:
 lxc-attach aio1-horizon-container-63d9ffa3
 ```
 
+Create a network from Admin panel:
+
+Name | Project | Provider Network Type | Physical Network | External Network
+---|---|---|---|---
+Internet | admin | Flat | physnet1 | ✔️
+
+
+
