@@ -88,5 +88,7 @@ Name | Project | Provider Network Type | Physical Network | External Network
 ---|---|---|---|---
 Internet | admin | Flat | physnet1 | ✔️
 
-
-
+Check config details:
+```bash
+vim /etc/openstack_deploy/openstack_user_config.yml
+```
