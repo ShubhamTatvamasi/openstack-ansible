@@ -18,7 +18,7 @@ Source: https://cloud-images.ubuntu.com/
 
 clone openstack:
 ```bash
-sudo su
+sudo -i
 git clone -b stable/yoga https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
