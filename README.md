@@ -100,3 +100,16 @@ Check config details:
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
 ```
+
+### Flavors
+
+Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
+---|---|---|---
+m1.tiny | 1	| 1	| 512
+m1.small | 1 | 20	| 2048
+m1.medium	| 2	| 40 | 4096
+m1.large | 4 | 80	| 8192
+m1.xlarge	| 8	| 160	| 16384
+
+
+\
