@@ -41,12 +41,6 @@ git checkout 29.0.1
 > use `master` branch for latest build.
 
 
-Install kernel extra packages:
-```bash
-sudo apt install -y \
-  linux-modules-extra-$(uname -r)
-```
-
 bootstrap all in one setup:
 ```bash
 ./scripts/bootstrap-ansible.sh
@@ -73,6 +67,12 @@ openstack-ansible setup-openstack.yml
 
 # OR
 openstack-ansible setup-everything.yml
+```
+
+Install each component separately:
+```bash
+cd /opt/openstack-ansible/playbooks
+openstack-ansible os-keystone-install.yml
 ```
 
 verify installation:
