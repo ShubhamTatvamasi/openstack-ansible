@@ -1,6 +1,6 @@
 # openstack-ansible
 
-Source Code: https://github.com/openstack/openstack-ansible
+Source Code: https://docs.openstack.org/openstack-ansible/2024.1/user/aio/quickstart.html
 
 Step | Task | Link
 ---|---|---
@@ -16,23 +16,30 @@ https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
 
 Source: https://cloud-images.ubuntu.com/
 
-clone openstack:
+**Base OS:** Ubuntu 22.04.4 LTS (Jammy Jellyfish)
+
+Update all packages:
 ```bash
+sudo apt update
+sudo apt dist-upgrade
+reboot
+```
+
+Setup openstack-ansible repo:
+```bash
+# Become root user
 sudo -i
+
+# clone openstack-ansible
 git clone https://opendev.org/openstack/openstack-ansible \
   /opt/openstack-ansible
 cd /opt/openstack-ansible
+
+# take the latest stable release
+git checkout 29.0.1
 ```
 > use `master` branch for latest build.
 
-Install packages:
-```bash
-sudo apt update
-sudo apt install -y \
-  bridge-utils debootstrap openssh-server \
-  tcpdump vlan python3 build-essential git \
-  python3-dev sudo chrony
-```
 
 Install kernel extra packages:
 ```bash
