@@ -12,7 +12,7 @@ Step | Task | Link
 
 
 Ubuntu QCOW2 Image for Openstack \
-https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
+https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
 
 Source: https://cloud-images.ubuntu.com/
 
