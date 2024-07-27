@@ -19,7 +19,8 @@ Source: https://cloud-images.ubuntu.com/
 clone openstack:
 ```bash
 sudo -i
-git clone -b stable/yoga https://github.com/openstack/openstack-ansible.git /opt/openstack-ansible
+git clone https://opendev.org/openstack/openstack-ansible \
+  /opt/openstack-ansible
 cd /opt/openstack-ansible
 ```
 > use `master` branch for latest build.
