@@ -113,4 +113,9 @@ m1.xlarge	| 8	| 160	| 16384
 m1.2xlarge	| 8	| 160	| 16384
 
 
-\
+Add network route in macos:
+```bash
+sudo route -n add -net 172.29.248.0/22 192.168.1.64
+```
+
+
