@@ -92,9 +92,12 @@ lxc-attach aio1-horizon-container-63d9ffa3
 
 Create a network from Admin panel:
 
-Name | Project | Provider Network Type | Physical Network | External Network
----|---|---|---|---
-Internet | admin | Flat | physnet1 | ✔️
+Name | Project | Provider Network Type | Physical Network | External Network | Device | Network | Gateway
+---|---|---|---|---|---|---|---
+public | admin | Flat | physnet1 | ✔️ | br-vlan | 172.29.248.0/22 | 172.29.248.1
+
+
+
 
 Check config details:
 ```bash
