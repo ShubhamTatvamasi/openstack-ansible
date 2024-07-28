@@ -110,6 +110,8 @@ CIDR Range | Gateway
 ---|---
 172.30.1.0/24 | 172.30.1.1
 
+> Note: It's won't ask for Provider Network Type, Segmentation ID and External Network from a member.
+
 Check config details:
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
