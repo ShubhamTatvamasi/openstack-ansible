@@ -90,7 +90,7 @@ Login to horizon container:
 lxc-attach aio1-horizon-container-63d9ffa3
 ```
 
-Create a network from Admin panel:
+### Create public network:
 
 Name | Project | Provider Network Type | Physical Network | External Network
 ---|---|---|---|---
@@ -100,6 +100,15 @@ Interface | CIDR Range | First IP | Last IP | Gateway | DHCP
 ---|---|---|---|---|---
 br-vlan | 172.29.248.0/22 | 172.29.248.0 | 172.29.251.255 | 172.29.248.1 | 172.29.249.110,172.29.249.200
 
+### Create private network:
+
+Name | Project | Provider Network Type | Segmentation ID | External Network
+---|---|---|---|---
+private | myproject | Geneve | 1 | ✖️
+
+CIDR Range | Gateway
+---|---
+172.30.1.0/24 | 172.30.1.1
 
 Check config details:
 ```bash
