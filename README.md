@@ -69,10 +69,10 @@ openstack-ansible setup-openstack.yml
 openstack-ansible setup-everything.yml
 ```
 
-Install each component separately:
+Install Magnum:
 ```bash
 cd /opt/openstack-ansible/playbooks
-openstack-ansible os-keystone-install.yml
+openstack-ansible os-magnum-install.yml
 ```
 
 verify installation:
