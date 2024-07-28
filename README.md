@@ -92,13 +92,13 @@ lxc-attach aio1-horizon-container-63d9ffa3
 
 Create a network from Admin panel:
 
-Name | Project | Provider Network Type | Physical Network | External Network | Network | Gateway | DHCP
----|---|---|---|---|---|---|---
-public | admin | Flat | physnet1 | ✔️ | 172.29.248.0/22 | 172.29.248.1 | 172.29.249.110,172.29.249.200
+Name | Project | Provider Network Type | Physical Network | External Network
+---|---|---|---|---
+public | admin | Flat | physnet1 | ✔️ 
 
-Interface | CIDR Range | First IP | Last IP
----|---|---|---
-br-vlan | 172.29.248.0/22 | 172.29.248.0 | 172.29.251.255
+Interface | CIDR Range | First IP | Last IP | Gateway | DHCP
+---|---|---|---|---|---
+br-vlan | 172.29.248.0/22 | 172.29.248.0 | 172.29.251.255 | 172.29.248.1 | 172.29.249.110,172.29.249.200
 
 
 Check config details:
