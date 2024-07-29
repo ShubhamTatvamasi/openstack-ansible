@@ -127,7 +127,9 @@ m1.small | 1 | 10	| 1024
 m1.medium	| 2	| 20 | 2048
 m1.large | 4 | 40	| 4096
 m1.xlarge	| 8	| 80	| 8192
-m1.xlarge2	| 16	| 160	| 16384
+|||
+k1.medium	| 2	| 50	| 4096
+k1.large	| 4	| 100	| 8192
 
 
 Add network route in macos:
