@@ -124,9 +124,9 @@ Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
 m1.tiny | 1	| 5	| 512
 m1.small | 1 | 10	| 1024
 m1.medium	| 2	| 20 | 2048
-m1.large | 4 | 80	| 8192
-m1.xlarge	| 8	| 160	| 16384
-m1.2xlarge	| 8	| 160	| 16384
+m1.large | 4 | 50	| 8192
+m1.xlarge	| 8	| 80	| 16384
+m1.2xlarge	| 16	| 160	| 16384
 
 
 Add network route in macos:
