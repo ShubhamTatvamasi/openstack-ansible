@@ -123,7 +123,8 @@ vim /etc/openstack_deploy/openstack_user_config.yml
 
 Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
 ---|---|---|---
-m1.micro | 1	| 1	| 256
+m1.nano | 1	| 1	| 128
+m1.micro | 1	| 2	| 256
 m1.tiny | 1	| 5	| 512
 m1.small | 1 | 10	| 1024
 m1.medium	| 2	| 20 | 2048
