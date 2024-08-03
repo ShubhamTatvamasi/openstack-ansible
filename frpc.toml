@@ -1,0 +1,16 @@
+serverAddr = "openstack.example.com"
+serverPort = 7000
+
+[[proxies]]
+name = "openstack_example_com_http"
+type = "http"
+localIP = "192.168.1.64"
+localPort = 80
+customDomains = ["openstack.example.com"]
+
+[[proxies]]
+name = "openstack_example_com_https"
+type = "https"
+localIP = "192.168.1.64"
+localPort = 443
+customDomains = ["openstack.example.com"]
