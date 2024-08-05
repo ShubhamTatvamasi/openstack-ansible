@@ -100,7 +100,7 @@ Edit `nova.conf` file:
 sudo vim /etc/nova/nova.conf
 ```
 
-Add below line under the [DEFAULT] section:
+Add below line under the `[DEFAULT]` section:
 ```
 resume_guests_state_on_host_boot = True
 ```
