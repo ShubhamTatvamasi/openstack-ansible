@@ -92,6 +92,24 @@ Login to horizon container:
 lxc-attach aio1-horizon-container-63d9ffa3
 ```
 
+
+### Configure OpenStack Instances Autostart after reboot
+
+Edit `nova.conf` file:
+```bash
+sudo vim /etc/nova/nova.conf
+```
+
+Add below line under the [DEFAULT] section:
+```
+resume_guests_state_on_host_boot = True
+```
+
+Restart `nova-compute` service:
+```bash
+sudo systemctl restart nova-compute
+```
+
 ### Create public network:
 
 Name | Project | Provider Network Type | Physical Network | External Network
