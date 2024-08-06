@@ -2,7 +2,7 @@
 
 Supported Images: https://docs.openstack.org/image-guide/obtain-images
 
-Ubuntu Images: https://cloud-images.ubuntu.com/
+Ubuntu Images: https://cloud-images.ubuntu.com
 
 Image | URL
 ---|---
