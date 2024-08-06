@@ -10,14 +10,6 @@ Step | Task | Link
 4 | Run playbooks | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/run-playbooks.html
 5 | Verifying OpenStack operation | https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/verify-operation.html
 
-
-Ubuntu QCOW2 Image for Openstack \
-https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
-
-Source: https://cloud-images.ubuntu.com/
-
-Supported Images: https://docs.openstack.org/image-guide/obtain-images
-
 **Base OS:** Ubuntu 22.04.4 LTS (Jammy Jellyfish)
 
 Update all packages:
