@@ -1,25 +1,10 @@
-# Magnus
-
-
-```bash
-vim /etc/openstack_deploy/conf.d/magnum.yml
-```
-
-```yaml
-magnum-infra_containers:
-  aio1:
-    ip: 172.29.236.100
-magnum-infra_hosts:
-  aio1:
-    ip: 172.29.236.100
-```
+# Magnum
 
 Install Magnum:
 ```bash
 cd /opt/openstack-ansible/playbooks
 openstack-ansible os-magnum-install.yml
 ```
-
 
 Add Metadata in Image:
 
@@ -28,7 +13,6 @@ Common Operating System Properties -> OS Distro
 COE | os_distro
 ---|---
 Kubernetes | fedora-coreos
-
 
 
 https://www.fedoraproject.org/coreos/download?stream=stable#arches
