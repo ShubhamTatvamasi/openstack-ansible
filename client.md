@@ -16,6 +16,13 @@ brew install openstackclient
 source admin-openrc.sh
 ```
 
+Set this for insecure access:
+```bash
+alias openstack='openstack --insecure'
+```
+
+
 ```
 openstack image list
 ```
+
