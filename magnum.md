@@ -25,10 +25,10 @@ Add Metadata in Image:
 
 Common Operating System Properties -> OS Distro
 
-`os_distro`
-```
-ubuntu
-```
+COE | os_distro
+---|---
+Kubernetes | fedora-coreos
+
 
 
 https://www.fedoraproject.org/coreos/download?stream=stable#arches
