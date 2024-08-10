@@ -63,12 +63,6 @@ openstack-ansible setup-openstack.yml
 openstack-ansible setup-everything.yml
 ```
 
-Install Magnum:
-```bash
-cd /opt/openstack-ansible/playbooks
-openstack-ansible os-magnum-install.yml
-```
-
 verify installation:
 ```bash
 lxc-ls --fancy
