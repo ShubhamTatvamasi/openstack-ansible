@@ -10,3 +10,12 @@ Install on macOS:
 ```bash
 brew install openstackclient
 ```
+
+
+```bash
+source admin-openrc.sh
+```
+
+```
+openstack image list
+```
