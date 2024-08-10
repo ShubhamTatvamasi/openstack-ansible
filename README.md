@@ -44,7 +44,9 @@ bootstrap all in one setup:
 Update `openstack_user_config.yml` file:
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
+```
 
+```yaml
 # Check external IP
 external_lb_vip_address: 192.168.1.64
 
@@ -52,8 +54,10 @@ external_lb_vip_address: 192.168.1.64
 magnum-infra_hosts:
   aio1:
     ip: 172.29.236.100
+```
 
-# OR verify
+Verify public IP for accessing horizon dashboard:
+```
 cat /etc/openstack_deploy/openstack_user_config.yml | grep external_lb_vip_address
 ```
 
