@@ -5,15 +5,18 @@
 vim /etc/openstack_deploy/user_variables.yml
 ```
 
-Add below line under the `[DEFAULT]` section:
+```yaml
+resume_guests_state_on_host_boot: true
 ```
-resume_guests_state_on_host_boot = True
-```
-
 
 Edit `nova.conf` file:
 ```bash
 sudo vim /etc/nova/nova.conf
+```
+
+Add below line under the `[DEFAULT]` section:
+```
+resume_guests_state_on_host_boot = True
 ```
 
 
