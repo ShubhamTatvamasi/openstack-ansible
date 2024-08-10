@@ -41,10 +41,17 @@ bootstrap all in one setup:
 ./scripts/bootstrap-aio.sh
 ```
 
-update external IP
+Update `openstack_user_config.yml` file:
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
-# external_lb_vip_address: 192.168.5.13
+
+# Check external IP
+external_lb_vip_address: 192.168.1.64
+
+# Add Magnus deployment
+magnum-infra_hosts:
+  aio1:
+    ip: 172.29.236.100
 
 # OR verify
 cat /etc/openstack_deploy/openstack_user_config.yml | grep external_lb_vip_address
