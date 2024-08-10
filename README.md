@@ -50,8 +50,11 @@ vim /etc/openstack_deploy/openstack_user_config.yml
 # Check external IP
 external_lb_vip_address: 192.168.1.64
 
-# Add Magnus deployment
+# Add Magnus for Kubernetes deployment
 magnum-infra_hosts:
+  aio1:
+    ip: 172.29.236.100
+orchestration_hosts:
   aio1:
     ip: 172.29.236.100
 ```
