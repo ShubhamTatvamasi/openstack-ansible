@@ -12,7 +12,7 @@ Ubuntu 24.04 LTS (Noble Numbat) | https://cloud-images.ubuntu.com/noble/current/
 Rocky Linux v9.4 | https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud-Base.latest.x86_64.qcow2
 Fedora Atomic 29 | https://dl.fedoraproject.org/pub/alt/atomic/stable/Fedora-Atomic-29-20181025.1/AtomicHost/x86_64/images/Fedora-AtomicHost-29-20181025.1.x86_64.qcow2
 Fedora CoreOS 40 | https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/40.20240709.3.1/x86_64/fedora-coreos-40.20240709.3.1-openstack.x86_64.qcow2.xz
-
+Fedora Atomic 27 | https://dl.fedoraproject.org/pub/alt/atomic/stable/Fedora-Atomic-27-20180419.0/CloudImages/x86_64/images/Fedora-Atomic-27-20180419.0.x86_64.qcow2
 
 
 
