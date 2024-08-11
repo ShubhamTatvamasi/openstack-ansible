@@ -19,7 +19,6 @@ Kubernetes | fedora-coreos
 
 https://www.fedoraproject.org/coreos/download?stream=stable#arches
 
-https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/40.20240709.3.1/x86_64/fedora-coreos-40.20240709.3.1-openstack.x86_64.qcow2.xz
 
 Restart magnum container:
 ```bash
