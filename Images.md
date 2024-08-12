@@ -3,6 +3,8 @@
 Supported Images: https://docs.openstack.org/image-guide/obtain-images
 
 Ubuntu Images: https://cloud-images.ubuntu.com
+Fedora CoreOS Images: https://www.fedoraproject.org/coreos/download
+
 
 Image | URL
 ---|---
