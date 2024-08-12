@@ -16,10 +16,6 @@ COE | os_distro
 ---|---
 Kubernetes | fedora-coreos
 
-
-https://www.fedoraproject.org/coreos/download?stream=stable#arches
-
-
 Restart magnum container:
 ```bash
 lxc-stop aio1-magnum-container-6f191f80
