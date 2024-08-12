@@ -24,7 +24,7 @@ cd /var/lib/lxc/
 find . -type f -name magnum.conf
 ```
 
-Move to `magnum` config directory:
+Move to magnum config directory:
 ```bash
 cd ./aio1-magnum-container-6f191f80/rootfs/etc/magnum/
 ```
