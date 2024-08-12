@@ -46,6 +46,11 @@ Copy the OpenStack CA file to magnum config directory:
 cat /etc/haproxy/ssl/haproxy_aio1-192.168.1.64.pem > openstack_ca_file.crt
 ```
 
+Look for magnum container:
+```bash
+lxc-ls --fancy
+```
+
 Restart magnum container:
 ```bash
 lxc-stop aio1-magnum-container-6f191f80
