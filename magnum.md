@@ -45,7 +45,7 @@ openstack_ca_file = /etc/magnum/openstack_ca_file.crt
 
 Copy the OpenStack CA file to magnum config directory:
 ```bash
-cat /etc/haproxy/ssl/haproxy_aio1-192.168.1.64.pem > openstack_ca_file.crt
+cat /etc/haproxy/ssl/haproxy_aio1-192.168.1.64-ca.crt > openstack_ca_file.crt
 ```
 
 Look for magnum container:
