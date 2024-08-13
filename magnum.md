@@ -55,7 +55,6 @@ lxc-ls --fancy
 
 Restart magnum container:
 ```bash
-lxc-stop aio1-magnum-container-6f191f80
-lxc-start aio1-magnum-container-6f191f80
+lxc-stop aio1-magnum-container-6f191f80 && lxc-start aio1-magnum-container-6f191f80
 ```
 
