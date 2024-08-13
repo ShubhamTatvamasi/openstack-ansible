@@ -2,6 +2,8 @@
 
 https://docs.openstack.org/magnum/latest/user/index.html
 
+https://docs.openstack.org/magnum/latest/configuration/sample-config.html
+
 Install Magnum:
 ```bash
 cd /opt/openstack-ansible/playbooks
