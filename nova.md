@@ -1,4 +1,4 @@
-# nova
+# Nova
 
 ### Configure OpenStack Instances Autostart after reboot
 
