@@ -1,4 +1,4 @@
-# glance
+# Glance
 
 Move to lxc containers directory:
 ```bash
