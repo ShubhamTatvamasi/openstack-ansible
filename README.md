@@ -51,30 +51,10 @@ Update user variables:
 vim /etc/openstack_deploy/user_variables.yml
 ```
 
-```yaml
-# Check external IP
-external_lb_vip_address: 192.168.1.64
-
-# Add Magnum for Kubernetes deployment
-magnum-infra_hosts:
-  aio1:
-    ip: 172.29.236.100
-orchestration_hosts:
-  aio1:
-    ip: 172.29.236.100
-swift_hosts:
-  aio1:
-    ip: 172.29.236.100
-swift-proxy_hosts:
-  aio1:
-    ip: 172.29.236.100
-```
-
-Verify public IP for accessing horizon dashboard:
+Verify External IP for accessing horizon dashboard:
 ```
 cat /etc/openstack_deploy/openstack_user_config.yml | grep external_lb_vip_address
 ```
-
 
 Install everything, move to `/opt/openstack-ansible/playbooks` directory:
 ```bash
