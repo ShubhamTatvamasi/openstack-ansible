@@ -60,6 +60,9 @@ orchestration_hosts:
 swift_hosts:
   aio1:
     ip: 172.29.236.100
+swift-proxy_hosts:
+  aio1:
+    ip: 172.29.236.100
 ```
 
 Verify public IP for accessing horizon dashboard:
