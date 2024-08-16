@@ -57,6 +57,9 @@ magnum-infra_hosts:
 orchestration_hosts:
   aio1:
     ip: 172.29.236.100
+swift_hosts:
+  aio1:
+    ip: 172.29.236.100
 ```
 
 Verify public IP for accessing horizon dashboard:
