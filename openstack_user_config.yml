@@ -1,9 +1,29 @@
+# /opt/openstack-ansible/etc/openstack_deploy/conf.d/magnum.yml.aio
 magnum-infra_hosts:
   aio1:
     ip: 172.29.236.100
+
+# /opt/openstack-ansible/etc/openstack_deploy/conf.d/heat.yml.aio
 orchestration_hosts:
   aio1:
     ip: 172.29.236.100
+
+# /opt/openstack-ansible/etc/openstack_deploy/conf.d/swift.yml.aio
+global_overrides:
+  swift:
+    part_power: 8
+    storage_network: br-storage
+    replication_network: br-storage
+    drives:
+      - name: swift1.img
+      - name: swift2.img
+      - name: swift3.img
+    mount_point: /srv
+    storage_policies:
+      - policy:
+          name: default
+          index: 0
+          default: True
 swift-proxy_hosts:
   aio1:
     ip: 172.29.236.100
