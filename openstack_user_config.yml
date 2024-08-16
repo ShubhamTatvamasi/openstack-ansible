@@ -1,3 +1,6 @@
+# External IP
+external_lb_vip_address: 192.168.1.64
+
 # /opt/openstack-ansible/etc/openstack_deploy/conf.d/magnum.yml.aio
 magnum-infra_hosts:
   aio1:
