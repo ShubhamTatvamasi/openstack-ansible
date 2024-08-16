@@ -1,0 +1,3 @@
+nova_nova_conf_overrides:
+  DEFAULT:
+    resume_guests_state_on_host_boot: true
