@@ -41,9 +41,14 @@ bootstrap all in one setup:
 ./scripts/bootstrap-aio.sh
 ```
 
-Update `openstack_user_config.yml` file:
+Update user config file:
 ```bash
 vim /etc/openstack_deploy/openstack_user_config.yml
+```
+
+Update user variables:
+```bash
+vim /etc/openstack_deploy/user_variables.yml
 ```
 
 ```yaml
