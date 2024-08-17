@@ -113,11 +113,6 @@ CIDR Range | Gateway
 
 > Note: It's won't ask for Provider Network Type, Segmentation ID and External Network from a member.
 
-Check config details:
-```bash
-vim /etc/openstack_deploy/openstack_user_config.yml
-```
-
 ### Flavors
 
 Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
