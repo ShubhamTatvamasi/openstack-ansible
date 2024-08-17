@@ -1,7 +1,11 @@
 # https://docs.openstack.org/project-deploy-guide/openstack-ansible/pike/app-advanced-config-override.html
+
+# Resume VM state on reboot
 nova_nova_conf_overrides:
   DEFAULT:
     resume_guests_state_on_host_boot: true
+
+# Increased Images size cache
 glance_glance_cache_conf_overrides:
   DEFAULT:
     image_cache_max_size: 1073741824000
@@ -13,6 +17,8 @@ glance_glance_api_conf_overrides:
     default_backend: file
   file:
     filesystem_store_datadir: /var/lib/glance/images/
+
+# Does not work
 magnum_magnum_conf_overrides:
   drivers:
     verify_ca: false
