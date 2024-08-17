@@ -1,4 +1,4 @@
-# https://docs.openstack.org/project-deploy-guide/openstack-ansible/draft/app-advanced-config-override.html
+# https://docs.openstack.org/project-deploy-guide/openstack-ansible/pike/app-advanced-config-override.html
 nova_nova_conf_overrides:
   DEFAULT:
     resume_guests_state_on_host_boot: true
