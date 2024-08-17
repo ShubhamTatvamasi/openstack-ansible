@@ -13,3 +13,6 @@ glance_glance_api_conf_overrides:
     default_backend: file
   file:
     filesystem_store_datadir: /var/lib/glance/images/
+magnum_magnum_conf_overrides:
+  drivers:
+    verify_ca: false
