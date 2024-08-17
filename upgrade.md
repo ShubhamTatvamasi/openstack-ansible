@@ -39,4 +39,9 @@ Move to playbooks:
 cd playbooks
 ```
 
+Deploy config changes:
+```bash
+openstack-ansible "${SCRIPTS_PATH}/upgrade-utilities/deploy-config-changes.yml"
+```
+
 
