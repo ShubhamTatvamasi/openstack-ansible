@@ -31,6 +31,7 @@ tar zcf ${source_series_backup_file} /etc/openstack_deploy /etc/ansible/ /usr/lo
 Bootstrap again:
 ```bash
 ${SCRIPTS_PATH}/bootstrap-ansible.sh
+${SCRIPTS_PATH}/bootstrap-aio.sh
 ```
 
 Move to playbooks:
