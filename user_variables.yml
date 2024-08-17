@@ -30,3 +30,5 @@ heat_heat_conf_overrides:
     server_keystone_endpoint_type: internal
   clients_heat:
     endpoint_type: internalURL
+  heat_api:
+    bind_host: 172.29.236.101
