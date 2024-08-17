@@ -26,6 +26,11 @@ Check all the available images:
 openstack image list
 ```
 
+Remove protection from image:
+```bash
+openstack image set --unprotected 437e89a4-8f42-4354-ab53-6e0ef640e2e8
+```
+
 Update `.bashrc`:
 ```bash
 vim ~/.bashrc
