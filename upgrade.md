@@ -22,4 +22,10 @@ export MAIN_PATH="$(pwd)"
 export SCRIPTS_PATH="${MAIN_PATH}/scripts"
 ```
 
+Backup current state:
+```bash
+source_series_backup_file="/openstack/backup-openstack-ansible-2024.1.tar.gz"
+tar zcf ${source_series_backup_file} /etc/openstack_deploy /etc/ansible/ /usr/local/bin/openstack-ansible.rc
+```
+
 
