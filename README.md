@@ -1,6 +1,6 @@
 # openstack-ansible
 
-Source Code: https://docs.openstack.org/openstack-ansible/2024.1/user/aio/quickstart.html
+Source: https://docs.openstack.org/openstack-ansible/2024.1/user/aio/quickstart.html
 
 Step | Task | Link
 ---|---|---
