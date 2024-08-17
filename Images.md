@@ -8,6 +8,7 @@ Fedora CoreOS Images: https://www.fedoraproject.org/coreos/download
 
 Image | Default User | URL
 ---|---|---
+cirros 0.6.2 | `root` | https://download.cirros-cloud.net/0.6.2/cirros-0.6.2-x86_64-disk.img
 Ubuntu 24.04 LTS (Noble Numbat) | `ubuntu` | https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
 Ubuntu 22.04.4 LTS (Jammy Jellyfish) | `ubuntu` | https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 Ubuntu 20.04.6 LTS (Focal Fossa) | `ubuntu` | https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
