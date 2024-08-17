@@ -127,7 +127,8 @@ m1.xlarge	| 8	| 80	| 8192
 |||
 k1.medium	| 2	| 50	| 4096
 k1.large	| 4	| 100	| 8192
-
+|||
+Data Center	| 16 | 500 | 32768
 
 Add network route in macos:
 ```bash
