@@ -12,7 +12,7 @@ find . -type f -name glance-cache.conf
 
 Move to glance config directory:
 ```bash
-cd ./aio1-glance-container-657fbfff/rootfs/openstack/venvs/glance-29.0.1/etc/glance/
+cd ./aio1-glance-container-657fbfff/rootfs/openstack/venvs/glance-29.0.2/etc/glance/
 ```
 
 Search for `image_cache_max_size` values in all files:
