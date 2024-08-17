@@ -28,4 +28,8 @@ source_series_backup_file="/openstack/backup-openstack-ansible-2024.1.tar.gz"
 tar zcf ${source_series_backup_file} /etc/openstack_deploy /etc/ansible/ /usr/local/bin/openstack-ansible.rc
 ```
 
+Bootstrap again:
+```bash
+${SCRIPTS_PATH}/bootstrap-ansible.sh
+```
 
