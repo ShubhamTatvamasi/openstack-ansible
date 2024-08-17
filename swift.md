@@ -28,3 +28,18 @@ Try to SSH into the container:
 ```bash
 ssh root@172.29.239.147
 ```
+
+Unmonnt swift drives:
+```bash
+umount /srv/swift1.img
+umount /srv/swift2.img
+umount /srv/swift3.img
+```
+
+Remove all the drives data:
+```bash
+cd /srv
+rm -rf *
+```
+
+
