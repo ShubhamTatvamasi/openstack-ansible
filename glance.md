@@ -29,3 +29,8 @@ vim glance-api.conf
 ```
 image_cache_max_size = 1073741824000
 ```
+
+Restart glance container:
+```bash
+lxc-stop aio1-glance-container-657fbfff && lxc-start aio1-glance-container-657fbfff
+```
