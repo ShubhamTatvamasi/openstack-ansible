@@ -22,3 +22,4 @@ glance_glance_api_conf_overrides:
 magnum_config_overrides:
   drivers:
     verify_ca: false
+    openstack_ca_file: /etc/magnum/openstack_ca_file.crt
