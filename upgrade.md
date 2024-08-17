@@ -44,4 +44,26 @@ Deploy config changes:
 openstack-ansible "${SCRIPTS_PATH}/upgrade-utilities/deploy-config-changes.yml"
 ```
 
+Upgrade hosts:
+```bash
+openstack-ansible setup-hosts.yml --limit '!galera_all:!rabbitmq_all' -e package_state=latest
+openstack-ansible setup-hosts.yml -e 'lxc_container_allow_restarts=false' --limit 'galera_all:rabbitmq_all'
+```
+
+Upgrade infrastructure:
+```bash
+openstack-ansible setup-infrastructure.yml -e 'galera_upgrade=true' -e 'rabbitmq_upgrade=true' -e package_state=latest
+openstack-ansible "${SCRIPTS_PATH}/upgrade-utilities/galera-cluster-rolling-restart.yml"
+```
+
+Upgrade OpenStack:
+```bash
+openstack-ansible setup-openstack.yml -e package_state=latest
+```
+
+Upgrade Ceph:
+```bash
+openstack-ansible /etc/ansible/roles/ceph-ansible/infrastructure-playbooks/rolling_update.yml
+```
+
 
