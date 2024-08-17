@@ -2,6 +2,8 @@ nova_nova_conf_overrides:
   DEFAULT:
     resume_guests_state_on_host_boot: true
 glance_glance_api_conf_overrides:
-  image_cache_max_size: 1073741824000
+  DEFAULT:
+    image_cache_max_size: 1073741824000
 glance_glance_cache_conf_overrides:
-  image_cache_max_size: 1073741824000
+  DEFAULT:
+    image_cache_max_size: 1073741824000
