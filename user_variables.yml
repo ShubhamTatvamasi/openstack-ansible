@@ -8,5 +8,8 @@ glance_glance_cache_conf_overrides:
 glance_glance_api_conf_overrides:
   DEFAULT:
     image_cache_max_size: 1073741824000
+    enabled_backends: "file:file,swift:swift,http:http,cinder:cinder"
   glance_store:
-    default_backend: cinder
+    default_backend: file
+  file:
+    filesystem_store_datadir: /var/lib/glance/images/
