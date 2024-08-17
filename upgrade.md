@@ -34,6 +34,12 @@ ${SCRIPTS_PATH}/bootstrap-ansible.sh
 ${SCRIPTS_PATH}/bootstrap-aio.sh
 ```
 
+Update `openstack_user_config.yml` and `user_variables.yml`:
+```bash
+vim /etc/openstack_deploy/openstack_user_config.yml
+vim /etc/openstack_deploy/user_variables.yml
+```
+
 Move to playbooks:
 ```bash
 cd playbooks
