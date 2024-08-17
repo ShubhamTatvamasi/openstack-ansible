@@ -67,9 +67,5 @@ Upgrade OpenStack:
 openstack-ansible setup-openstack.yml -e package_state=latest
 ```
 
-Upgrade Ceph:
-```bash
-openstack-ansible /etc/ansible/roles/ceph-ansible/infrastructure-playbooks/rolling_update.yml
-```
 
 
