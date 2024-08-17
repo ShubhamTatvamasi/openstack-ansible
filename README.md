@@ -83,7 +83,7 @@ login as `admin` user, password you can get:
 cat /etc/openstack_deploy/user_secrets.yml | grep "keystone_auth_admin_password"
 ```
 
-Login to horizon container:
+Get inside horizon container:
 ```bash
 lxc-attach aio1-horizon-container-63d9ffa3
 ```
