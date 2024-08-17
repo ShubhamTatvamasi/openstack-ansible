@@ -23,3 +23,8 @@ magnum_config_overrides:
   drivers:
     verify_ca: false
     openstack_ca_file: /etc/magnum/openstack_ca_file.crt
+
+# Use internal IP for heat server
+heat_heat_conf_overrides:
+  DEFAULT:
+    server_keystone_endpoint_type: internal
