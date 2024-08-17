@@ -16,5 +16,10 @@ git pull
 git checkout 29.0.2
 ```
 
+Set variables:
+```bash
+export MAIN_PATH="$(pwd)"
+export SCRIPTS_PATH="${MAIN_PATH}/scripts"
+```
 
 
