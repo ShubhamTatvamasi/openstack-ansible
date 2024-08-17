@@ -19,6 +19,6 @@ glance_glance_api_conf_overrides:
     filesystem_store_datadir: /var/lib/glance/images/
 
 # Does not work
-magnum_magnum_conf_overrides:
+magnum_magnum_confg_overrides:
   drivers:
     verify_ca: false
