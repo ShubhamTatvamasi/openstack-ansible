@@ -1,9 +1,12 @@
+# https://docs.openstack.org/project-deploy-guide/openstack-ansible/draft/app-advanced-config-override.html
 nova_nova_conf_overrides:
   DEFAULT:
     resume_guests_state_on_host_boot: true
-glance_glance_api_conf_overrides:
-  DEFAULT:
-    image_cache_max_size: 1073741824000
 glance_glance_cache_conf_overrides:
   DEFAULT:
     image_cache_max_size: 1073741824000
+glance_glance_api_conf_overrides:
+  DEFAULT:
+    image_cache_max_size: 1073741824000
+  glance_store:
+    default_backend: cinder
