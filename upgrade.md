@@ -33,3 +33,9 @@ Bootstrap again:
 ${SCRIPTS_PATH}/bootstrap-ansible.sh
 ```
 
+Move to playbooks:
+```bash
+cd playbooks
+```
+
+
