@@ -30,7 +30,7 @@ git clone https://opendev.org/openstack/openstack-ansible \
 cd /opt/openstack-ansible
 
 # take the latest stable release
-git checkout 29.0.1
+git checkout 29.0.2
 ```
 > use `master` branch for latest build.
 
