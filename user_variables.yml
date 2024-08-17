@@ -28,3 +28,5 @@ magnum_config_overrides:
 heat_heat_conf_overrides:
   DEFAULT:
     server_keystone_endpoint_type: internal
+  clients_heat:
+    endpoint_type: internalURL
