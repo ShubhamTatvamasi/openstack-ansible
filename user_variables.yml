@@ -28,6 +28,8 @@ magnum_config_overrides:
 heat_heat_conf_overrides:
   DEFAULT:
     server_keystone_endpoint_type: internal
+    heat_waitcondition_server_url: "http://172.29.236.101:8000/v1/waitcondition"
+    heat_metadata_server_url: "http://172.29.236.101:8000"
   clients_heat:
     endpoint_type: internalURL
   heat_api:
