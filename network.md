@@ -2,9 +2,9 @@
 
 ### Create public network:
 
-Name | Project | Provider Network Type | Physical Network | External Network
----|---|---|---|---
-public | admin | Flat | physnet1 | ✔️ 
+Name | Project | Provider Network Type | Physical Network | External Network | MTU
+---|---|---|---|---|---
+public | admin | Flat | physnet1 | ✔️ | 1558
 
 Interface | CIDR Range | First IP | Last IP | Gateway | DHCP
 ---|---|---|---|---|---
