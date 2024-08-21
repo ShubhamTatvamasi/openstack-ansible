@@ -5,6 +5,11 @@ nova_nova_conf_overrides:
   DEFAULT:
     resume_guests_state_on_host_boot: true
 
+# Change default MTU
+neutron_neutron_conf_overrides:
+  DEFAULT:
+    global_physnet_mtu: 1558
+
 # Increased Images size cache
 glance_glance_cache_conf_overrides:
   DEFAULT:
