@@ -36,12 +36,12 @@ sudo ip route add 172.29.248.0/22 via 192.168.1.64
 
 ### Update MTU
 
-List all the networks
+List all the networks:
 ```bash
 openstack network list
 ```
 
-Set MTU
+Set MTU:
 ```bash
 openstack network set --mtu 1500 6a1b5b0c-5a93-4b0c-9009-a1262f1e9592
 ```
