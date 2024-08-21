@@ -12,9 +12,9 @@ br-vlan | 172.29.248.0/22 | 172.29.248.0 | 172.29.251.255 | 172.29.248.1 | 172.2
 
 ### Create private network:
 
-Name | Project | Provider Network Type | Segmentation ID | External Network
----|---|---|---|---
-private | myproject | Geneve | 1 | ✖️
+Name | Project | Provider Network Type | Segmentation ID | External Network | MTU
+---|---|---|---|---|---
+private | myproject | Geneve | 1 | ✖️ | 1500
 
 CIDR Range | Gateway
 ---|---
