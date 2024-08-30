@@ -9,7 +9,7 @@ Fedora CoreOS Images: https://www.fedoraproject.org/coreos/download
 Image | Default User | URL
 ---|---|---
 CirrOS 0.6.2 | `cirros` | https://download.cirros-cloud.net/0.6.2/cirros-0.6.2-x86_64-disk.img
-Ubuntu 24.04 LTS (Noble Numbat) | `ubuntu` | https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+Ubuntu 24.04.1 LTS (Noble Numbat) | `ubuntu` | https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
 Ubuntu 22.04.4 LTS (Jammy Jellyfish) | `ubuntu` | https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 Ubuntu 20.04.6 LTS (Focal Fossa) | `ubuntu` | https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
 Debian 12 | `debian` | https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-generic-amd64.qcow2
