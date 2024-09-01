@@ -11,6 +11,15 @@ orchestration_hosts:
   aio1:
     ip: 172.29.236.100
 
+# /opt/openstack-ansible/etc/openstack_deploy/conf.d/manila.yml.aio
+manila-infra_hosts:
+  aio1:
+    ip: 172.29.236.100
+
+manila-data_hosts:
+  aio1:
+    ip: 172.29.236.100
+
 # /opt/openstack-ansible/etc/openstack_deploy/conf.d/swift.yml.aio
 global_overrides:
   swift:
