@@ -15,4 +15,4 @@ k1.large	| 4	| 100	| 8192
 |||
 Data Center	| 16 | 500 | 32768
 |||
-manila-service-flavor | 1 | 0 | 256
+manila-service-flavor | 1 | 10 | 512
