@@ -3,7 +3,8 @@
 Install on Linux:
 ```bash
 apt install python3-pip
-pip install python-openstackclient
+pipx install python-openstackclient
+pipx install python-manilaclient
 ```
 
 Install on macOS:
