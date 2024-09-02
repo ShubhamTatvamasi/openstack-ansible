@@ -25,3 +25,11 @@ sudo umount /mnt/nfs
 Access Type | Access Level | Access To
 ---|---|---
 ip | read-write | 172.30.1.206
+
+
+### Share Types
+
+Name | Driver handles share servers | Public
+---|---|---
+Gold | True | ✔️
+
