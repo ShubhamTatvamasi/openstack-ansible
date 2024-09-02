@@ -6,6 +6,8 @@ apt install python3-pip
 pipx install python-openstackclient
 pipx install python-manilaclient
 pipx install python-novaclient
+
+sudo apt install mysql-client
 ```
 
 Install on macOS:
