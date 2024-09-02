@@ -12,7 +12,7 @@ sudo mkdir /mnt/nfs
 
 Mount nfs storage:
 ```bash
-sudo mount -t nfs 10.254.0.11:/shares/share-500da7a0-6b3c-42a7-8f74-229618ec208a /mnt/nfs
+sudo mount -t nfs 10.254.0.22:/shares/share-43c64f3f-20fe-4bec-8ac7-2e30e081c604 /mnt/nfs
 ```
 
 Unmount nfs:
