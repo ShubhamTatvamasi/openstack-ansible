@@ -15,6 +15,10 @@ Mount nfs storage:
 sudo mount -t nfs 10.254.0.11:/shares/share-500da7a0-6b3c-42a7-8f74-229618ec208a /mnt/nfs
 ```
 
+Unmount nfs:
+```bash
+sudo umount /mnt/nfs
+```
 
 ### Share Rules
 
