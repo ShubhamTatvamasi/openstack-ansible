@@ -16,4 +16,4 @@ Debian 12 | `debian` | https://cloud.debian.org/images/cloud/bookworm/latest/deb
 Rocky Linux v9.4 | `rocky` | https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud-Base.latest.x86_64.qcow2
 Fedora CoreOS 40 | `core` | https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/40.20240728.3.0/x86_64/fedora-coreos-40.20240728.3.0-openstack.x86_64.qcow2.xz
 Fedora CoreOS 38 | `core` | https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/38.20230806.3.0/x86_64/fedora-coreos-38.20230806.3.0-openstack.x86_64.qcow2.xz
-manila-service-image | | http://tarballs.openstack.org/manila-image-elements/images/manila-service-image-master.qcow2
+manila-service-image | `manila` | http://tarballs.openstack.org/manila-image-elements/images/manila-service-image-master.qcow2
