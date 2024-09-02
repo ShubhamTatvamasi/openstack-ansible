@@ -32,7 +32,11 @@ sudo route -n add -net 172.29.248.0/22 192.168.1.64
 Add network route in linux:
 ```bash
 sudo ip route add 172.29.248.0/22 via 192.168.1.64
+
+# Management
+sudo ip route add 172.29.236.0/22 via 192.168.1.64
 ```
+> Netmask `255.255.252.0`
 
 ### Update MTU
 
