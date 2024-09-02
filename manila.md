@@ -1,6 +1,6 @@
 # Manila
 
-Install NFS pacakge:
+Install NFS package:
 ```bash
 sudo apt install nfs-common
 ```
