@@ -2,7 +2,7 @@
 
 Install on Linux:
 ```bash
-apt install python3-pip
+apt install pipx
 pipx install python-openstackclient
 pipx install python-manilaclient
 pipx install python-novaclient
