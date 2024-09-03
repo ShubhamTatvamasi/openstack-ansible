@@ -39,4 +39,5 @@ vim ~/.bashrc
 ```
 ```
 source /home/ubuntu/.openstack/admin-openrc.sh
+export PATH="$HOME/.local/bin:$PATH"
 ```
