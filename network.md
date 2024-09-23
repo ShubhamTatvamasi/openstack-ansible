@@ -24,9 +24,12 @@ CIDR Range | Gateway
 
 ### Setup routing in client system
 
-Add network route in macos:
+Add network route in macOS:
 ```bash
 sudo route -n add -net 172.29.248.0/22 192.168.1.64
+
+# Delete route
+sudo route -n delete -net 172.29.248.0/22 192.168.1.64
 ```
 
 Add network route in linux:
