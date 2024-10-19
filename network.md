@@ -41,6 +41,13 @@ sudo ip route add 172.29.236.0/22 via 192.168.1.64
 ```
 > Netmask `255.255.252.0`
 
+Add a softlink:
+```bash
+sudo ln -s \
+  /Users/shubham/myfiles/git/openstack-ansible/update-route.sh \
+  /usr/local/bin/update-route.sh
+```
+
 ### Update MTU
 
 List all the networks:
