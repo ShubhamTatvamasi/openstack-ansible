@@ -2,10 +2,11 @@
 
 Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
 ---|---|---|---
-m1.nano | 1	| 1	| 128
-m1.micro | 1	| 2	| 256
-m1.tiny | 1	| 5	| 512
-m1.small | 1 | 10	| 1024
+s1.nano | 1	| 1	| 128
+s1.micro | 1	| 2	| 256
+s1.tiny | 1	| 5	| 512
+s1.small | 1 | 10	| 1024
+|||
 m1.medium	| 2	| 20 | 2048
 m1.large | 4 | 40	| 4096
 m1.xlarge	| 8	| 80	| 8192
