@@ -19,6 +19,7 @@ k1.xlarge	| 8	| 100	| 32768
 c1.small	| 4	| 10	| 2048
 c1.medium	| 8	| 10	| 4096
 c1.large	| 16	| 10	| 8192
+c1.xlarge	| 32	| 10	| 16384
 |||
 Data Center	| 16 | 500 | 32768
 |||
