@@ -2,19 +2,19 @@
 
 Flavor | VCPUs | Disk (in GB)	| RAM (in MB)
 ---|---|---|---
-s1.nano | 1	| 1	| 128
-s1.micro | 1	| 2	| 256
-s1.tiny | 1	| 5	| 512
+s1.small | 1	| 1	| 128
+s1.medium | 1	| 2	| 256
+s1.large | 1	| 5	| 512
 |||
 m1.small | 1 | 10	| 1024
 m1.medium	| 2	| 10 | 2048
-m1.large | 4 | 20	| 4096
-m1.xlarge	| 8	| 20	| 8192
+m1.large | 4 | 10	| 4096
+m1.xlarge	| 8	| 10	| 8192
 |||
-k1.small	| 2	| 50	| 4096
-k1.medium	| 4	| 50	| 8192
-k1.large	| 8	| 100	| 16384
-k1.xlarge	| 8	| 100	| 32768
+r1.small	| 2	| 10	| 4096
+r1.medium	| 4	| 10	| 8192
+r1.large	| 8	| 10	| 16384
+r1.xlarge	| 8	| 10	| 32768
 |||
 c1.small	| 4	| 10	| 2048
 c1.medium	| 8	| 10	| 4096
