@@ -17,3 +17,12 @@ Rocky Linux 9.5 | `rocky` | https://dl.rockylinux.org/pub/rocky/9/images/x86_64/
 Fedora CoreOS 40 | `core` | https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/40.20240728.3.0/x86_64/fedora-coreos-40.20240728.3.0-openstack.x86_64.qcow2.xz
 Fedora CoreOS 38 | `core` | https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/38.20230806.3.0/x86_64/fedora-coreos-38.20230806.3.0-openstack.x86_64.qcow2.xz
 manila-service-image | `manila` | http://tarballs.openstack.org/manila-image-elements/images/manila-service-image-master.qcow2
+
+Upload image via cli:
+```bash
+openstack image create \
+  --file Rocky-9-GenericCloud-Base.latest.x86_64.qcow2 \
+  --disk-format qcow2 \
+  --public \
+  "Rocky Linux 9.5"
+```
